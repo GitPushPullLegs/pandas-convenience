@@ -1,0 +1,9 @@
+README.md
+setup.py
+pandasconvenience/__init__.py
+pandasconvenience/pandasconvenience.py
+pandasconvenience.egg-info/PKG-INFO
+pandasconvenience.egg-info/SOURCES.txt
+pandasconvenience.egg-info/dependency_links.txt
+pandasconvenience.egg-info/requires.txt
+pandasconvenience.egg-info/top_level.txt
