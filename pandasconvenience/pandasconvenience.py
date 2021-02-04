@@ -22,3 +22,7 @@ def export_to_excel(data_frames: {pd.DataFrame}, path):
         for key, data_frame in data_frames.items():
             data_frame.to_excel(writer, key, index=False)
         writer.save()
+
+def split(data_frame: pd.DataFrame, columns: [str]) -> {pd.DataFrame}:
+    """Splits a data frame into multiple by the columns."""
+    return dict(tuple(data_frame.groupby(columns)))
