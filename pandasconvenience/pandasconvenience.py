@@ -19,9 +19,9 @@ def import_any(value: str, **kwargs) -> pd.DataFrame:
         return read_sql(value, **kwargs)
 
 
-def export_to_excel(data_frames: {pd.DataFrame}, path):
+def export_to_excel(data_frames: {pd.DataFrame}, output_path: str):
     """Exports multiple data frames into an excel workbook. The dict key is the sheet name."""
-    with ExcelWriter(path) as writer:
+    with ExcelWriter(output_path) as writer:
         for key, data_frame in data_frames.items():
             data_frame.to_excel(writer, key, index=False)
         writer.save()
