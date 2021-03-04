@@ -9,7 +9,7 @@ setup(
     author_email='jose.aguilar.6694@gmail.com',
     license='MIT',
     packages=find_packages(),
-    install_requires=['pandas', 'pyodbc'],
+    install_requires=['pandas', 'pyodbc', 'keyring'],
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Development',
