@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pandasconvenience',
-    version='0.0.1',
+    version='0.0.2',
     description='A convenience package for Pandas.',
     url='https://github.com/GitPushPullLegs/pandasconvenience',
     author='Joe Aguilar',
